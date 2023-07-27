@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+body{
+    background: black;
+}
+.fondo{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: rgb(6, 178, 201);
+}
+.text{
+    width: 50%;
+    border: none;
+    border-radius: 4px;
+    margin: 15px;
+}
+iframe{
+    width: 50%;
+    background: greenyellow;
+    border-radius: 4px; 
+    margin: 15px;
+    box-shadow: -15px 17px 18px 0px #FFFFFF;    
+}
